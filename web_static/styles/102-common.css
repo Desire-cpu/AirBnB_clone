@@ -1,5 +1,6 @@
 html {
   height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -14,6 +15,12 @@ body {
 
 .container {
   max-width: 1000px;
-  margin: 30px auto;
+  margin: 10px 15px;
   padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    margin: 30px auto;
+  }
 }
